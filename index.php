@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Deals Market</title>
+	<title>Nab It</title>
 	<script src="js/jquery.min.js"></script>
 	<script src="js/bootstrap.js"></script>
 	<script src="js/script.js"></script>
@@ -22,18 +22,15 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand" href="#">Project name</a>
+				<a class="navbar-brand navColor" href="#">Nab It</a>
 			</div>
 			<div id="navbar" class="navbar-collapse collapse">
-				<ul class="nav navbar-nav">
-				</ul>
-
 				<ul class="nav navbar-nav navbar-right">
 					<!-- <li class="active"><a href="#">Home</a></li> -->
-					<li><a href="#FAQ">FAQ</a></li>
-					<li><a href="#about">About</a></li>
+					<li><a class="navColor" href="#FAQ">FAQ</a></li>
+					<li><a class="navColor" href="#">Sell</a></li>
 					<li class="dropdown" id="menuLogin">
-						<a class="dropdown-toggle" href="#" data-toggle="dropdown" id="navLogin">Log In</a>
+						<a class="dropdown-toggle navColor" href="#" data-toggle="dropdown" id="navLogin">Log In</a>
 						<div class="dropdown-menu">
 							<form class="form" id="formLogin" class="formLogin"> 
 								<input class="LogInBreak" name="username" id="username" type="text" placeholder="Username"> 
@@ -42,13 +39,13 @@
 							</form>
 						</div>
 					</li>
-					<li class="dropdown" id="menuLogin">
-						<a class="dropdown-toggle" href="#" data-toggle="dropdown" id="navLogin">Sign Up</a>
+					<li class="dropdown" id="menuSignup">
+						<a class="dropdown-toggle navColor" href="#" data-toggle="dropdown" id="navLogin">Sign Up</a>
 						<div class="dropdown-menu">
 							<form class="form" id="formLogin" class="formLogin"> 
-								<input class="LogInBreak" name="username" id="username" type="text" placeholder="Username"> 
-								<input class="LogInBreak"name="email" id="email" type="text" placeholder="Email"><br>
-								<input name="password" id="password" type="password" placeholder="Password"><br>
+								<input class="LogInBreak" name="usernamesignup" id="usernamesignup" type="text" placeholder="Username"> 
+								<input class="LogInBreak"name="emailsignup" id="emailsignup" type="text" placeholder="Email"><br>
+								<input name="password" id="passwordsignup" type="passwordsignup" placeholder="Password"><br>
 								<button type="button" class="btn btn-info enterLogin">Sign Up</button>
 								<h4 class="signInDisclaimer">* Currently, you must be a Wash U student.</h4>
 							</form>
@@ -87,15 +84,15 @@
 				<div class="col-xs-4 productInfo"><h3><strong>Condition: </strong> <i>Mint</i></h3></div>
 				<div class="col-xs-4 productInfo"><h3><strong>Suggested Price:</strong> <i>$20</i></h3></div>
 				<div class="col-xs-4 productInfo"><h3><strong>Description:</strong> </h3> </div>
-				<div class="col-xs-4 productDescription"><h4>This is a flag in mint condition. I had never even opened it before! I'm excited to get this off my hands because I recently stopped watching soccer</h4></div>
+				<div class="col-xs-4 productDescription"><h4>This is a flag in mint condition. I have never even opened it before! I'm excited to get this off my hands because I recently stopped watching soccer</h4></div>
 			</div>
 
 				<!-- <div class="row">
 					<div class="col-xs-7"><p>This is a flag in mint condition. I had never even opened it before!</p></div>
 				</div> -->
-				<p class="center-block nabIt">For $<input class="box price" type="text" name="price" value="">, I'd</p>
+				<p class="center-block nabIt">For $<input class="box price" type="text" name="price" value="20"> I'd</p>
 				<button type="button" class="btn btn-info center-block nabIt nabButton">Nab It</button>
-				</div>
+			</div>
 
 		<!-- 		<label for="price"></label>
 					  <select class="form-control price box" id="price">
@@ -104,12 +101,12 @@
 					    <option>$3</option>
 					    <option>$4</option>
 					  </select>
- -->
+					-->
 
-			</div>
+				</div>
 
-		</div> <!-- /container -->
-
-
-	</body>
-	</html>
+			</div> <!-- /container -->
+		</div>
+	</div>
+</body>
+</html>
