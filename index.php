@@ -52,12 +52,20 @@
 
 			<!-- Main component for a primary marketing message or call to action -->
 			<div class="jumbotron">
-				<div class="productName"><h2 class="box">Chelsea FC Flag</h2><h4 class="box"> | </h4><h4 class="box">glubin</h4></div>
-				<img class="productImage" src="img/chelsea.png" alt="Chelsea FC Flag">
-				<p>This is a flag in mint condition. I had never even opened it before!</p>
-				<p>
-					<a class="btn btn-lg btn-primary center-block nabIt" href="#" role="button">Nab It Now!</a>
-				</p>
+				<div class="col-md-7">
+					<div class="productName"><h2 class="box">Chelsea FC Flag</h2><h4 class="box"> | </h4><h4 class="box">glubin</h4></div>
+				</div>
+				
+				<div class="row">
+				  <div class="col-md-7"><img class="productImage" src="img/chelsea.png" alt="Chelsea FC Flag"></div>
+				  <div class="col-md-4"><h3>Condition: New</h3></div>
+				</div>
+
+				<div class="row">
+					<div class="col-md-7"><p>This is a flag in mint condition. I had never even opened it before!</p></div>
+				</div>
+				
+				<p><a class="btn btn-lg btn-primary center-block nabIt" href="#" role="button">Nab It Now!</a></p>
 			</div>
 
 		</div> <!-- /container -->
