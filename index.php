@@ -52,12 +52,11 @@
 
 			<!-- Main component for a primary marketing message or call to action -->
 			<div class="jumbotron">
-				<div class="productName"><h2 class="">Chelsea FC Flag</h2><h4 class="box"> by </h4><h4 class="box">glubin</h4></div>
-				<img src="img/chelsea.png" alt="Chelsea FC Flag">
-				<p>This example is a quick exercise to illustrate how the default, static and fixed to top navbar work. It includes the responsive CSS and HTML, so it also adapts to your viewport and device.</p>
-				<p>To see the difference between static and fixed top navbars, just scroll.</p>
+				<div class="productName"><h2 class="box">Chelsea FC Flag</h2><h4 class="box"> | </h4><h4 class="box">glubin</h4></div>
+				<img class="productImage" src="img/chelsea.png" alt="Chelsea FC Flag">
+				<p>This is a flag in mint condition. I had never even opened it before!</p>
 				<p>
-					<a class="btn btn-lg btn-primary" href="../../components/#navbar" role="button">Nab it</a>
+					<a class="btn btn-lg btn-primary center-block nabIt" href="#" role="button">Nab It Now!</a>
 				</p>
 			</div>
 
