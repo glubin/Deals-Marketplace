@@ -52,7 +52,7 @@
 
 			<!-- Main component for a primary marketing message or call to action -->
 			<div class="jumbotron">
-				<div><h2>Chelsea FC Flag</h2></div>
+				<div class="productName"><h2 class="">Chelsea FC Flag</h2><h4 class="box"> by </h4><h4 class="box">glubin</h4></div>
 				<p>This example is a quick exercise to illustrate how the default, static and fixed to top navbar work. It includes the responsive CSS and HTML, so it also adapts to your viewport and device.</p>
 				<p>To see the difference between static and fixed top navbars, just scroll.</p>
 				<p>
