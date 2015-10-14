@@ -33,7 +33,7 @@
 						<a class="dropdown-toggle navColor" href="#" data-toggle="dropdown" id="navLogin">Log In</a>
 						<div class="dropdown-menu">
 							<form class="form" id="formLogin" class="formLogin"> 
-								<input class="LogInBreak" name="username" id="username" type="text" placeholder="Username"> 
+								<input class="LogInBreak" name="email" id="email" type="text" placeholder="Email"> 
 								<input name="password" id="password" type="password" placeholder="Password"><br>
 								<button type="button" class="btn btn-info enterLogin">Log In</button>
 							</form>
@@ -43,7 +43,6 @@
 						<a class="dropdown-toggle navColor" href="#" data-toggle="dropdown" id="navLogin">Sign Up</a>
 						<div class="dropdown-menu">
 							<form class="form" id="formLogin" class="formLogin"> 
-								<input class="LogInBreak" name="usernamesignup" id="usernamesignup" type="text" placeholder="Username"> 
 								<input class="LogInBreak"name="emailsignup" id="emailsignup" type="text" placeholder="Email"><br>
 								<input name="password" id="passwordsignup" type="passwordsignup" placeholder="Password"><br>
 								<button type="button" class="btn btn-info enterLogin">Sign Up</button>
