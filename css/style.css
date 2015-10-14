@@ -54,6 +54,16 @@
 
 .nabIt{
 	margin-top: 4%;
-	text-decoration: none;
-	max-width: 30%
+	max-width: 30%;
+	text-align: center;
+}
+
+.nabButton{
+	margin-top: 1%;
+	font-size: 20px;
+}
+
+.price{
+	width: 20%;
+	color: black;
 }

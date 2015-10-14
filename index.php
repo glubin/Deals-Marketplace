@@ -5,6 +5,7 @@
 	<title>Deals Market</title>
 	<script src="js/jquery.min.js"></script>
 	<script src="js/bootstrap.js"></script>
+	<script src="js/script.js"></script>
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -92,8 +93,19 @@
 				<!-- <div class="row">
 					<div class="col-xs-7"><p>This is a flag in mint condition. I had never even opened it before!</p></div>
 				</div> -->
-				
-				<p><a class="btn btn-lg btn-primary center-block nabIt" href="#" role="button">Nab It Now!</a></p>
+				<p class="center-block nabIt">For $<input class="box price" type="text" name="price" value="">, I'd</p>
+				<button type="button" class="btn btn-info center-block nabIt nabButton">Nab It</button>
+				</div>
+
+		<!-- 		<label for="price"></label>
+					  <select class="form-control price box" id="price">
+					    <option>$1</option>
+					    <option>$2</option>
+					    <option>$3</option>
+					    <option>$4</option>
+					  </select>
+ -->
+
 			</div>
 
 		</div> <!-- /container -->
