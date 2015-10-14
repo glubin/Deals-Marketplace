@@ -15,17 +15,29 @@
 
 .productImage{
 	border-radius: 25px;
-	max-height: 40em;
-	min-height: 10em;
-	max-width: 40em;
-	min-width: 10em;
-/*	display: block;
+	max-height: 100%;
+	min-height: 80%;
+	max-width: 100%;
+	min-width: 80%;
+	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	margin-bottom: 2%;*/
+	/*margin-bottom: 2%;*/
 }
 
+
+.productInfo{
+	margin-top: -2%;
+}
+
+.productDescription{
+	margin-left: 2%;
+	margin-top: -0.3%;
+}
+
+
 .nabIt{
+	margin-top: 3%;
 	text-decoration: none;
 	max-width: 30%
 }
