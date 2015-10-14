@@ -1,3 +1,20 @@
+#formLogin{
+	margin: 20px;
+}
+
+.enterLogin{
+	margin-top: 1%;
+	line-height: 1;
+}
+
+.signInDisclaimer{
+	font-size: 10px;
+}
+
+.LogInBreak{
+	margin-bottom: 3%;
+}
+
 .jumbotron{
 	margin-top: 8%;
 	padding-top: 1%
@@ -35,9 +52,8 @@
 	margin-top: -0.3%;
 }
 
-
 .nabIt{
-	margin-top: 3%;
+	margin-top: 4%;
 	text-decoration: none;
 	max-width: 30%
 }
